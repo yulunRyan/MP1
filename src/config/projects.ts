@@ -20,16 +20,16 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
+    name: 'Freshman scholarship, 2023 third prize scholarship, 2024 first prize scholarship',
     description: '',
-    date: '2024',
+    date: '2022-2024',
     location: 'SCLS, Shanghai',
   },
   {
-    name: 'Zhui Ying Award',
+    name: 'American Computer Science League (intermediate) Team gold, Individual Top Scores',
     description: '',
     date: '2023',
-    location: 'Qingpu, Shanghai',
+    location: 'China',
   },
 ]
 
@@ -39,29 +39,12 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'Environmental research',
+    description: 'Researched on elevating the performance of plastic-degrading bacteria; investigated combined pollution of mercury and microplastics ',
+    link: { href: '', label: 'GitHub Cards' },
+    tags: ['Microplastic', 'pollution', 'Ideonella Sakaiensis']
   },
-  {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
-  },
-  {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
-  },
+ 
 ]
 
 // Hobbies & Volunteer
@@ -70,26 +53,24 @@ export const activitiesIntro = "Personal interests and community contributions."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'Camp counselor ',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+      'Coached kids outdoor survival skills as senior boy scout(8 years); led 3 hiking trips, raising environmental awareness; mental supporter for 100+ kids',
+    date: '2023',
+    location: 'Chiang Mai, Thailand',
   },
   {
-    name: 'AI Ethics Discussion',
+    name: 'Terrarium designer; environmental educator',
     description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
+      'Created 55+ closed ecosystems; raised and investigated 5 species of insects; recorded plant growth; uploaded tutorial videos, total 30k+views',
+    date: '2023-2025',
     location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
   },
   {
-    name: 'Code Review Session',
+    name: 'Game and AI designer',
     description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
+      'Designed 5 games using pygame (shared and played by classmates), 1 AI and 1 webpage for college counseling; practiced advanced algorithms ',
+    date: '2022-2025',
     location: 'Shanghai',
   },
 ]

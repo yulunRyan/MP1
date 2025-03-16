@@ -3,25 +3,23 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'Yulun (Ryan) Wu'
+export const headline = 'A 12th grade student at Shanghai Soong Ching Ling School'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+  "你好！侬好！Hello！Hola！(The four languages I can speak) I'm from Shanghai and an alumnus from Vanke Bilingual School and Shanghai Soong Ching Ling School. I am a terrarium designer, a boy scout, a camp counselor, a developer, and a traditional Chinese medicine leaner."
+export const email = 'wuyulun10@gmail.com'
+export const githubUsername = 'yulunRyan'
 
 // about page
 export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "Still working on this...",
 ]
 
 // blog
 export const blogHeadLine = "What I've thinking about."
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "I want to share some of my thinkings."
 
 // social links
 export type SocialLinkType = {
